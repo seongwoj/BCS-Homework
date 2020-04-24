@@ -12,7 +12,7 @@ function getRandomNumber() {
 }
 
 function getRandomSpecial() {
-  var symbols = "!@#$%^&*(){}[]=<>/,."
+  var symbols = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
   return symbols[Math.floor(Math.random() * symbols.length)];
 }
 
